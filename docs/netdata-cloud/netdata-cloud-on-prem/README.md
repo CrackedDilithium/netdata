@@ -68,7 +68,7 @@ The following 3rd party components are used, which can be pulled with the `netda
 - **Ingress controller** supporting HTTPS
 - **PostgreSQL** version 13.7 (main database for all metadata Netdata Cloud maintains)
 - **EMQX** version 5.11 (MQTT Broker that allows Agents to send messages to the On-Prem Cloud)
-- **Apache Pulsar** version 2.10+ (message broken for inter-container communication)
+- **Apache Pulsar** version 2.10+ (message broker for inter-container communication)
 - **Traefik** version 2.7.x (internal API Gateway)
 - **Elasticsearch** version 8.8.x (stores the feed of events)
 - **Redis** version 6.2 (caching)
